@@ -36,22 +36,26 @@ p{
     display: flex;
     justify-content: center;
 }
-.descripcion, .registrate{
+.registrate, .descripcion{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }      
 button:hover{
     background-color: green;
         }
 @media(max-width:480px){
-    .coberturas iframe, .relacionados img, .imagen img {
+    .coberturas iframe, .relacionados img, .imagen img{
         width: 200px;
         height: 100px;
         display: flex; 
         flex-direction: column;
-        justify-content: center;  
-        }      
+        justify-content: center;
+        }
+    .descripcion{
+        display: flex;
+        
+    }     
 }
 @media(min-width:481px){
     .imagen img{
