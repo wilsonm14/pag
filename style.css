@@ -40,7 +40,10 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-}      
+}  
+.accesorios{
+    display: flex;
+}
 button:hover{
     background-color: green;
         }
