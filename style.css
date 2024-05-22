@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+h1{
+        font-family: "Platypi", serif;
+        font-optical-sizing: auto;
+        font-weight:weight;
+        font-style:normal;
+    }
+p{
+    font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.encabezado{ 
+    display: flex ;
+    justify-content: center;
+    border: 20px solid aqua;
+    background-color: blue;
+    }
+.cuerpo{
+        border: 20px solid blue;
+    }
+.carro, .registrate{
+    border: 20px solid red;
+    }
+.datos, .imagen, h1, .relacionados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:20px;
+        }
+.precios{
+    display: flex;
+    justify-content: center;
+}
+.descripcion, .registrate{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}      
+button:hover{
+    background-color: green;
+        }
+@media(max-width:480px){
+    .coberturas iframe, .relacionados img, .imagen img {
+        width: 200px;
+        height: 100px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;  
+        }      
+}
+@media(min-width:481px){
+    .imagen img{
+    width: 600px;
+    height: 300px;
+    }
+}
